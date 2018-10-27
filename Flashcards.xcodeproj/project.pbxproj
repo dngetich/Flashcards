@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414582942185034200340853 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414582932185034100340853 /* CreationViewController.swift */; };
 		41BAC02D21728F93008292F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BAC02C21728F93008292F0 /* AppDelegate.swift */; };
 		41BAC02F21728F93008292F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BAC02E21728F93008292F0 /* ViewController.swift */; };
 		41BAC03221728F93008292F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BAC03021728F93008292F0 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		414582932185034100340853 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 		41BAC02921728F93008292F0 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BAC02C21728F93008292F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BAC02E21728F93008292F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				41BAC02C21728F93008292F0 /* AppDelegate.swift */,
 				41BAC02E21728F93008292F0 /* ViewController.swift */,
 				41BAC03021728F93008292F0 /* Main.storyboard */,
+				414582932185034100340853 /* CreationViewController.swift */,
 				41BAC03321728F93008292F0 /* Assets.xcassets */,
 				41BAC03521728F93008292F0 /* LaunchScreen.storyboard */,
 				41BAC03821728F93008292F0 /* Info.plist */,
@@ -91,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "David Ngetich";
 				TargetAttributes = {
 					41BAC02821728F93008292F0 = {
@@ -138,6 +141,7 @@
 			files = (
 				41BAC02F21728F93008292F0 /* ViewController.swift in Sources */,
 				41BAC02D21728F93008292F0 /* AppDelegate.swift in Sources */,
+				414582942185034200340853 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +181,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +189,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +240,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +248,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
