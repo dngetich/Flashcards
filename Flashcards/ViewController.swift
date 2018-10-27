@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         //destination of the segue is the Navigation View Controller
         let navigationController  = segue.destination as! UINavigationController
         
-        //navigation controller only contains a creation view contrller
+        //navigation controller only contains a Creation View Contrller
         let creationController = navigationController.topViewController as! CreationViewController
         
         //set the flashcards view controller property to self
