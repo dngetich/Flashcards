@@ -80,12 +80,12 @@ class ViewController: UIViewController {
         btnOptionThree.isHidden = true
     }
     
-    func updateFlashcard(question: String, answer: String, extraAnswerOne: String?, extraAnswerTwo: String?){
+    func updateFlashcard(question: String?, answer: String?, extraAnswerOne: String?, extraAnswerTwo: String?){
         frontLabel.text = question
         backLabel.text = answer
         
-        btnOptionOne.setTitle(answer, for: .normal)
-        btnOptionTwo.setTitle(extraAnswerOne, for: .normal)
+        btnOptionOne.setTitle(extraAnswerOne, for: .normal)
+        btnOptionTwo.setTitle(answer, for: .normal)
         btnOptionThree.setTitle(extraAnswerTwo, for: .normal)
     }
     
