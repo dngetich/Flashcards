@@ -40,17 +40,18 @@ class CreationViewController: UIViewController {
     
     @IBAction func didTapOnDone(_ sender: Any) {
         
+        
         //Get the question in the question text field
         let questionText = questionTextField.text
         
         //Get the text in the answer text field
         let answerText = answerTextField.text
-        
+    
         //Get the text from the extra answer 1
-        //let AddedAnswer1 = answer2TextField.text
+        let AddedAnswer1 = answer2TextField.text
         
         //get the text from the scond extra answer
-        //let AddedAnswer2 = answer3TextField.text
+        let AddedAnswer2 = answer3TextField.text
         
         //check if empty
         if(questionText == nil || answerText == nil || questionText!.isEmpty || questionText!.isEmpty){
@@ -64,8 +65,13 @@ class CreationViewController: UIViewController {
         }
         else{
             
+            //see if the card is existing
+            var isExisting = false
+            if initialQuestion != nil {
+                isExisting = true
+            }
             //call the function to update the flashcards
-            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!) //extraAnswerOne: AddedAnswer1!, extraAnswerTwo: AddedAnswer2!)
+            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, answer2: AddedAnswer1!, answer3: AddedAnswer2!, isExisting: isExisting) //extraAnswerOne: AddedAnswer1!, extraAnswerTwo: AddedAnswer2!)
             
             //Dismiss
             dismiss(animated: true)
