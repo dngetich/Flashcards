@@ -6,10 +6,6 @@
 Typically the user will have question that he thinks are very relevant to what they are studying and the Flashcards app will output the answers to those questions when they taps on the questions label
 
 
-### App Walk-though
-
-http://g.recordit.co/UZZSLVMG9A.gif
-
 ## Required
 - [x] User should see the app icon 
 - [x] User should see a splash screen
