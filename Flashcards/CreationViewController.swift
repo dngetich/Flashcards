@@ -22,6 +22,8 @@ class CreationViewController: UIViewController {
     
     var initialQuestion: String?
     var initialAnswer: String?
+    var initialAnswer2: String?
+    var initialAnswer3: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +31,8 @@ class CreationViewController: UIViewController {
         // Do any additional setup after loading the view.
         questionTextField.text = initialQuestion
         answerTextField.text = initialAnswer
+        answer2TextField.text = initialAnswer2
+        answer3TextField.text = initialAnswer3
         
     }
     
